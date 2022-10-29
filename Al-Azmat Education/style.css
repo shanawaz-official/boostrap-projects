@@ -1,0 +1,82 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+ :root {
+   --mainbgcolor: black;
+   --maincolor: #ffffff;
+   --maincolor2: black;
+ }
+
+
+ .footer {
+   position: fixed;
+   width: 100%;
+   bottom: 0;
+   left: 0;
+ }
+
+ .footer::before {
+   content: '';
+   position: absolute;
+   left: 0;
+   top: 100px;
+   height: 1px;
+   width: 100%;
+ }
+
+ .footer .footer-container {
+   width: 100%;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .footer .footer-container .text {
+   max-width: 1250px;
+   padding: 20px 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .footer-container .text span,
+ .footer-container .text a {
+   font-size: 14px;
+   opacity: 0.8;
+   text-decoration: none;
+ }
+
+ .footer-container .text a:hover {
+   opacity: 1;
+   text-decoration: underline;
+ }
+
+ .footer-container .text a {
+   margin-right: 10px;
+ }
+
+ 
+ /*utility classes*/
+ .bg-color {
+   background-color: var(--mainbgcolor);
+ }
+
+ .font-color {
+   color: var(--maincolor);
+ }
+
+.bg-color2{
+  background-color: var(--maincolor);
+}
+
+.font-color2{
+  color: var(--mainbgcolor)
+}
+
+.mb{
+  margin-bottom: 50px;
+}
+
+.mt{
+  margin-top: 50px;
+}
